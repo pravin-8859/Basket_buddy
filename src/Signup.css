@@ -1,0 +1,54 @@
+
+
+
+ .modal{
+    background-color: yellowgreen;
+    border: 1px solid white;
+   padding-top: 20rem;
+    /* width:100vh; */
+    height: 450px;
+    line-height: 4rem;
+    border-radius: 100px;
+  
+ }
+
+
+ .modal .logo{
+    font-weight: 900;
+    font-size: xx-large;
+    margin-left: 5rem;
+ }
+
+
+ .modal h2{
+    font-weight: 700;
+    font-size: large;
+    margin-left: 5rem;
+ }
+ 
+
+  .modal p{
+    font-weight: 500;
+    font-size:large;
+    margin-left: 6rem;
+ }
+ 
+
+ .modal #mobileNumber{
+    font-weight: 500;
+    font-size:large;
+    margin-left: 2.5rem;
+    width: 15rem;
+
+ }
+ 
+.modal .continue-btn{
+    width: 16.5rem;
+
+    height:3rem;
+    border-radius: 20px;
+    border: none;
+    margin:2.5rem;
+    background-color: grey;
+
+}

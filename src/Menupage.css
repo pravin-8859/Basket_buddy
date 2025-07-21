@@ -1,0 +1,26 @@
+  /* body {
+            font-family: Arial, sans-serif;
+        } */
+        .menulist {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 20px;
+            margin:8rem;
+        }
+        .menulist .category {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            text-align: center;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        .menulist .category img {
+            width: 140px;
+            height: 150px
+            border-radius: 4px;
+        }
+        /* h3 {
+            font-size: 18px;
+            margin: 10px 0 0;
+        }  */

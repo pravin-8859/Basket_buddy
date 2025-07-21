@@ -1,0 +1,49 @@
+.modal {
+    width: 350px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    padding: 20px 25px;
+}
+h3 {
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: #222;
+}
+
+.btn {
+    padding: 10px 15px;
+    background: #138214; 
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.divider {
+    display: flex;
+    text-align: center;
+    color: #999;
+    font-weight: 600;
+    margin: 0 10px;
+}
+input[type="text"] {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    font-size: 14px;
+    width: 180px;
+    vertical-align: middle;
+}  
+
+
+.close {
+    float: right;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    color: #555;
+    user-select: none;
+}

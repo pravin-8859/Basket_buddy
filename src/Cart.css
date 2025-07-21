@@ -1,0 +1,155 @@
+/* .shopping_cart {
+    border : 1px solid black;
+    height: 40rem;
+   width:20rem;
+    /* position: absolute; */
+    margin-top: -700px;
+    margin-right: 2500px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.shopping_cart h1{
+    border: 2px solid black;
+    box-shadow: 2px 3px 3px black;
+    height: 2rem;
+    width: 19rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    background-color: darkgreen;
+    margin: 0.4rem;
+}
+
+.shopping_cart .box{
+    display: flex;
+}
+
+
+.shopping_cart .box .para{
+    border: 2px solid black;
+    margin-top:4rem;
+    margin-left: 3rem;
+    line-height: 20px;
+    font-size: larger;
+    border-radius: 6px;
+    
+}
+
+.shopping_cart .box img{
+    height:6rem;
+    width:6rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    /* border: 2px solid black;
+    border-radius: 6px; */
+}
+
+
+.total{
+    padding-top:3rem;
+    padding-left: 7rem;
+    font-size: larger;
+
+}
+
+
+.checkout{
+    padding-top: 1rem;
+    padding-bottom: 1rem;;
+    border: 2px solid black;
+    width:10rem;
+    border-radius: 9px;
+    background-color: #065084;
+    text-align: center;
+    font-weight: 600;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    
+} */
+
+
+
+body {
+    background-color: #f0f4f8; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.shopping_cart {
+    border: 1px solid #ccc;
+    height: auto; 
+    width: 500px; 
+     margin-top: -720px ; 
+     margin-right:2200px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px; 
+}
+
+.shopping_cart h1 {
+    background-color: #4CAF50; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px; 
+}
+
+.shopping_cart .box {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    margin-bottom: 15px; /* Space between items */
+    border: 1px solid #e0e0e0; /* Light border for each item */
+    border-radius: 10px;
+    padding: 10px; /* Padding inside each box */
+    transition: box-shadow 0.3s; /* Smooth shadow transition */
+}
+
+.shopping_cart .box:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+}
+
+.shopping_cart .box img {
+    height: 80px; /* Adjusted size for better visibility */
+    width: 80px;
+    border-radius: 10px; /* Rounded corners for images */
+    margin-right: 15px; /* Space between image and text */
+}
+
+.shopping_cart .para {
+    line-height: 1.5; /* Improved line height for readability */
+    font-size: 1rem; /* Standard font size */
+
+  
+}
+
+.total {
+    font-size: 1.2rem; /* Larger font for total */
+    font-weight: bold; /* Bold text for emphasis */
+    margin-top: 20px; /* Space above total */
+    text-align: right; /* Align total to the right */
+}
+
+.checkout {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4CAF50; /* Green checkout button */
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px; /* Space above checkout button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.checkout:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.checkout a {
+    color: white; /* White text for link */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Make the link fill the button */
+}

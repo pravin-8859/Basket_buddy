@@ -1,0 +1,106 @@
+/* .payment {
+    border : 1px solid black;
+    height: 40rem;
+   width:20rem;
+    /* position: absolute; */
+   margin-top: 3rem;
+   margin-left:50rem;
+    border-radius: 20px;
+    background-color: white;
+    line-height: 2rem;
+}
+
+.payment h2{
+    color:blue;
+    padding-left: 2rem;
+}
+
+.payment .input{
+    margin-top:10px;
+    height: 2rem;
+    width: 15rem;
+    margin-left: 2rem;
+}
+
+.payment button{
+    background-color: green;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 15px;
+} */
+
+
+
+
+body {
+    /* background-color: #f0f4f8; Light background for contrast
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.payment {
+    border: 1px solid #ccc;
+    width: 400px; /* Increased width for better layout */
+    margin: 50px auto; /* Center the payment form */
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.payment h2 {
+    color: #4CAF50; /* Green header */
+    text-align: center; /* Center the header */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+.input-label {
+    margin-top: 15px; /* Space above each label */
+    font-weight: bold; /* Bold labels for emphasis */
+    color: #333; /* Darker color for better readability */
+}
+
+.input {
+    margin-top: 5px; /* Space above input fields */
+    height: 40px; /* Increased height for better usability */
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 10px; /* Rounded corners for inputs */
+    font-size: 1rem; /* Standard font size */
+    transition: border 0.3s; /* Smooth border transition */
+}
+
+.input:focus {
+    border-color: #4CAF50; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Add shadow on focus */
+}
+
+.pay-button {
+    background-color: #4CAF50; /* Green button */
+    color: white; /* White text */
+    height: 45px; /* Increased height for button */
+    width: 100%; /* Full width for button */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners for button */
+    font-size: 1.1rem; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background transition */
+    margin-top: 20px; /* Space above button */
+}
+
+.pay-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+@media (max-width: 480px) {
+    .payment {
+        width: 90%; /* Responsive width for smaller screens */
+    }
+}
+
+.payment .method{
+    color:yellow;
+    padding-left: 3rem;
+    padding-top: 1rem;
+}

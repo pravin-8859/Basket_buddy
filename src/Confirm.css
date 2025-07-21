@@ -1,0 +1,89 @@
+/* .confirmPage{
+    border: 5px solid black;
+    margin-top:100px;
+    margin-left:500px;
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    box-shadow: 2px 4px 3px black;
+    border-radius: 20px;
+}
+
+
+.icon{
+    border:15px solid black;
+    height: 70px;
+    width: 100px;
+    margin-top: 70px;
+    margin-left: 150px;
+    border-radius: 50%;
+    justify-content: center;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+.confirmPage h2{
+    padding-left: 80px;
+    padding-top: 50px;
+
+}
+
+.confirmPage h3{
+    padding-left: 150px;
+    padding-top: 50px;
+
+} */
+
+
+
+
+.confirmContainer {
+    border: 5px solid #ffcc00; /* Bright border color for visibility */
+    margin: 100px auto; /* Center the container */
+    width: 90%; /* Responsive width */
+    max-width: 600px; /* Maximum width for large screens */
+    padding: 20px; /* Added padding for inner spacing */
+    background-color: #e3f2fd; /* Light background color */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    border-radius: 20px; /* Rounded corners for a modern look */
+    text-align: center; /* Center-align contents */
+    font-family: 'Arial', sans-serif; /* Modern font */
+}
+
+.icon {
+    border: 15px solid #4caf50; /* Green border */
+    height: 100px; /* Increased height */
+    width: 100px; /* Fixed width */
+    margin: 20px auto; /* Center alignment */
+    border-radius: 50%; /* Circular shape */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; 
+    align-items: center; /* Center the icon */
+    background-color: #fff; /* White background for the icon area */
+}
+
+.confirmContainer h2 {
+    color: #333; /* Dark text color */
+    margin: 15px 0; /* Spacing around the heading */
+}
+
+.confirmContainer h3 {
+    color: #666; /* Lighter text color */
+    margin: 10px 0; /* Spacing around the subheading */
+}
+
+.goHomeButton {
+    display: inline-block; /* Inline block for button styling */
+    margin-top: 20px; /* Spacing above the button */
+    padding: 10px 20px; /* Button padding */
+    font-size: 16px; /* Font size for button */
+    color: white; /* White text color for contrast */
+    background-color: #2196F3; /* Blue background */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth background transition on hover */
+}
+
+.goHomeButton:hover {
+    background-color: #1976d2; /* Darker blue on hover */
+}

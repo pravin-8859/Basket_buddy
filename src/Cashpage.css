@@ -1,0 +1,54 @@
+.Delivery{
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 330px;
+    width: 500px;
+    margin: 2px auto;
+    padding: 2rem ;
+    line-height: 1.5rem;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.Delivery h2 ,h3{
+    font-weight: 600;
+
+}
+
+
+.Cashdelivery{
+    border: 1px solid black;
+    border-radius: 25px;
+  height: 330px;
+    width: 500px;
+    margin: 2px auto;
+    padding: 2rem ;
+    line-height: 2rem;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.Cashdelivery h2, h3{
+     font-weight: 600;
+}
+
+.Cashdelivery input{
+    width: 1rem;
+    height: 0.5;
+}
+
+.Cashdelivery button{
+    width: 100%;
+    background-color: blueviolet;
+    height: 2.5rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+
+
+}
+
+.Cashdelivery a{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+}

@@ -1,0 +1,96 @@
+.dairyheader{
+    border: 1px solid rgba(0, 0, 0, 0.1);;
+    
+    background-color: #fff;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding :  2rem 8%;
+    /* box-shadow: 1px 2px 20px white; */
+}
+
+/* .header{
+    background-color:#fff;;
+} */
+.dairyheader .dairyBasketBuddy{
+    color:#e4b012;
+  
+}
+
+.dairyheader .dairynav a{
+    margin : 1rem;
+    color: green;
+}
+
+.dairyheader .dairynav a:hover{
+    color : black;
+}
+
+.dairyheader .dairyicons .i{
+   color:black;
+    justify-content: space-between;
+    margin : 0 1rem;
+    font-size:larger;
+}
+
+.dairyheader .dairyicons i:hover{
+    color:black;
+}
+
+.dairyheading{
+    padding-top: 7rem;
+    padding-left: 3rem;
+}
+  .dairylist {
+   
+    border: 1px solid grey;
+    height: 85rem;
+    display: flex;
+    
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background-color: #fff;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    margin: 3rem;
+}
+
+
+
+.dairylist .milk_img{
+    /* display: flex; */
+    flex-wrap: wrap;
+    border: 1px solid grey;
+    margin-top: 0rem;
+    height:16rem;
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1em;
+    border-radius: 3%;
+}
+
+.dairylist .weight{
+    padding-top:0.5rem;
+}
+
+.dairylist .rate{
+    padding-top: 1rem;
+}
+
+.dairylist .rate button{
+    border-radius:5px;
+    color: green;
+    border-color: green;
+    /* background-color: aquamarine; */
+    height: 2rem;
+    width:5rem;
+    margin-right: 1rem;
+    margin-bottom: 2px;
+}

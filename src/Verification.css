@@ -1,0 +1,53 @@
+.heading{
+    border: 1px solid white;
+    width: 500px;
+    height: 400px;
+    border-radius: 25px;
+    margin-top: 6rem;
+    margin-left: 30rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    
+}
+
+.heading h1{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.heading p{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.heading input{
+    width: 2.5rem;
+    height: 3rem;
+    padding-left: 3.5rem;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 15px;
+}
+
+.heading .resend{
+    color:green;
+}
+
+.heading button{
+    border:none;
+    margin-left: 12rem;
+    margin-top: 1rem;
+    width: 7rem;
+    height: 3rem;
+     border-radius: 5px;
+     background-color:#177245;
+}
+
+.heading button:hover{
+    background-color: #004225;
+    border:none;
+    border-radius: 25px;
+    transition: 0.5s;
+}
