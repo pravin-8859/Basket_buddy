@@ -67,6 +67,7 @@ function App() {
         <Route path="/confirm" element={<Title/>} />
          <Route path="/cashpage" element={<Cashpage/>} />
           <Route path="/categorypage" element={<Categorypage/>} />
+           <Route path="/shopnow" element={<Menupage/>} />
 
       </Routes>
      
