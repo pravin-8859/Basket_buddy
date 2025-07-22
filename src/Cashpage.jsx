@@ -11,12 +11,12 @@ function Cashpage(){
                         
                                 <div>
                                     <h3 class="font-medium text-gray-800">Shipping Address</h3>
-                                    <p class="text-gray-600">123 Main Street, Apt 4B<br/>New York, NY 10001<br/>United States</p>
+                                    <p class="text-gray-600">123 Main Street, Agra<br/>Uttar pradesh<br/>India</p>
                                 </div>     
                                 
                                 <div>
                                     <h3 class="font-medium text-gray-800">Contact Information</h3>
-                                    <p class="text-gray-600">John Doe<br/>john.doe@example.com<br/>+1 (555) 123-4567</p>
+                                    <p class="text-gray-600">Shourav<br/>Shourav@gmail.com<br/>+91-8451548151</p>
                                 </div>
   
                                 <div>
