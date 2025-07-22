@@ -20,10 +20,10 @@ function Snacks(){
                                  </div>
             
                      <nav className="dairynav">
-                      <Link to="/titlepage">Home</Link>
-                      <a href="#Features">Features</a>
-                      <a href="#Products">Products</a>
-                      <a href="#Categories">Categories</a>
+                     <Link to="/titlepage">Home</Link>
+                               <Link to="/freshpage">Fresh</Link>
+                               <Link to="/menupage">Products</Link>
+                               <Link to="/categorypage">Categories</Link>
                       <a href="#Review">Review</a>
                       <a href="#Blogs">Blogs</a>
                     </nav>

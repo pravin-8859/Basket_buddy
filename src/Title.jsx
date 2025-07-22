@@ -4,7 +4,7 @@ import './Style.css';
 import {Link} from "react-router-dom";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnifyingGlass, faCartShopping, faCircleUser } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass, faCartShopping, faCircleUser , faCaretDown} from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram, faTwitter, faThreads } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -22,7 +22,7 @@ const Title = () => {
 
         <div ><Link to="/changeAddress" Style="color:black">
         <h2 >Delivery in 15 min</h2>
-            <h6>42G9+7Q4, Devri Rd,Taal..</h6>
+            <h6>42G9+7Q4, Devri Rd,Taal..&nbsp;&nbsp;&nbsp;<FontAwesomeIcon icon={faCaretDown} size="2xl" /></h6>
         </Link>
         </div>
 
@@ -31,7 +31,7 @@ const Title = () => {
           <Link to="/titlepage">Home</Link>
           <Link to="/freshpage">Fresh</Link>
           <Link to="/menupage">Products</Link>
-          <a href="#Categories">Categories</a>
+          <Link to="/categorypage">Categories</Link>
           <a href="#Review">Review</a>
           <a href="#Blogs">Blogs</a>
          
@@ -99,7 +99,7 @@ const Title = () => {
           <h1>Shop for Groceries</h1>
           <h2 className="online_here">Online Here</h2>
           <span><img src="groc.jpg" height="400px" alt="Groceries" /></span> 
-          <button className="button1">Shop Now</button>
+          <button className="button1"><Link to="/shopnow">Shop Now</Link></button>
           <button className="button2">Tour App</button>
         </div>
 

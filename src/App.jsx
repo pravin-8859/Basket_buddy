@@ -24,6 +24,7 @@ import Attapage from "./AttaPage.jsx";
 import Babypage from "./Babypage.jsx";
 import Verificationpage from "./Verificationpage.jsx";
 import Cashpage from "./Cashpage.jsx";
+import Categorypage from "./Categorypage.jsx";
 
 function App() {
 //   return(
@@ -65,6 +66,8 @@ function App() {
         <Route path="/verificationpage" element={<Verificationpage/>} />
         <Route path="/confirm" element={<Title/>} />
          <Route path="/cashpage" element={<Cashpage/>} />
+          <Route path="/categorypage" element={<Categorypage/>} />
+           <Route path="/shopnow" element={<Menupage/>} />
 
       </Routes>
      
